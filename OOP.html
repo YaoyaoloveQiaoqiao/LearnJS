@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+</head>
+<body>
+111
+<script type="text/javascript">
+		function Person(name){
+			var _this={};
+			this.say=function(){
+				alert("say name"+name);
+			}
+			this._name=name;
+		}
+
+		function Student(name){
+			var _this=new Person(name);
+		}
+
+		//alert("jinlaile");
+		var p = new Person("aa");
+		p.say();
+	</script>
+</body>
+</html>
